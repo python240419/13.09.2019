@@ -80,7 +80,7 @@ nisim = Employee.fromstring('nisim 17000')
 # static/class methods:
 #   getmaxheat() - write in 3 ways
 #   getmodelname() - write as @classmethod
-#   updatemaxheat(newmaxheat) - write as @classmethod
+#   updatemaxheat(cls, newmaxheat) - write as @classmethod
 #   fromstring('color#price#heat') - dont forget casting
 #   fromlist(['color', price, heat])
 #   getvendor - write as @staticmethod,
