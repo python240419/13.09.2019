@@ -76,14 +76,15 @@ nisim = Employee.fromstring('nisim 17000')
 # __init__(self, color, price, heat)
 # static/class data -
 #    model_name - choose whatever you want...
-#    max_heat
+#    max_heat - choose whatever you want...
 # static/class methods:
 #   getmaxheat() - write in 3 ways
 #   getmodelname() - write as @classmethod
 #   updatemaxheat(newmaxheat) - write as @classmethod
-#   fromstring('color#price#heat' - dont forget casting
-#   fromlist(['color', price, heat]
+#   fromstring('color#price#heat') - dont forget casting
+#   fromlist(['color', price, heat])
 #   getvendor - write as @staticmethod,
 #       returns 'android' or 'iphone'
+#   *etgar - static/class isOverHeated(ph) 
 
 
